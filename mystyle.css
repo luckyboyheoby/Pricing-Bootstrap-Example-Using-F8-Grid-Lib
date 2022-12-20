@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  /* width: 100%; */
+  line-height: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 4px 17px -6px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 2px 4px 17px -6px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 2px 4px 17px -6px rgba(0, 0, 0, 0.69);
+  margin-bottom: 16px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.sign-up-btn {
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 3px;
+  padding: 0px 10px;
+}
+
+.sign-up-btn:hover {
+  color: white;
+  background: #007bff;
+}
+
+.main {
+}
+
+.pricing-wrapper {
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  text-align: center;
+  box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 5%);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  min-width: 220px;
+  flex: 1 0 0%;
+  margin: 0px 15px;
+  margin-bottom: 24px;
+}
+.card-header {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+  padding: 12px 20px;
+}
+.card-content {
+  padding: 20px;
+}
+.card-content ul {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.card-content h1 {
+  margin-bottom: 12px;
+}
+.card button {
+  padding: 8px 16px;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 3px;
+}
+.card button:hover {
+  color: white;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+.pricing-header {
+  margin: 0px 100px;
+  padding: 48px 16px 24px 16px;
+  max-width: 700px;
+  text-align: center;
+}
+
+.pricing-header .pricing {
+  margin-bottom: 16px;
+}
+
+.description-pricing {
+  margin-bottom: 16px;
+}
+.footer {
+  padding-top: 24px;
+}
+.footer div {
+  padding: 15px;
+}
+.footer small {
+  margin-bottom: 10px;
+}
+.footer h5 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
